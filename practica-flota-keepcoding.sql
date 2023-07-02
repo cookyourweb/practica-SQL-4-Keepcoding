@@ -170,7 +170,7 @@ create table practicasqlKCReentrega.kc_cars(
     dt_termination date null default '4000-01-01',
     licence_plate varchar(20) not null,
     id_color int not null, --FK - colores
-    poli int null default 0,
+    tot_kms int null default 0,
     id_insurance_company int not null, -- FK- aseguradora
     description_kc_cars varchar(512) null
 );
